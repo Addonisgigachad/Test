@@ -24,7 +24,6 @@ public class Main
         
         System.out.println("Summe: "+summe + "\n Multiplikation: "+mult);
         
-
         //Rebase update 1
         //Master update 2
     }
