@@ -23,5 +23,8 @@ public class Main
         }
         
         System.out.println("Summe: "+summe + "\n Multiplikation: "+mult);
+        
+        //Master update 1
+        //Master update 2
     }
 }
