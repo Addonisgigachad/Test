@@ -1,3 +1,6 @@
+import java.math.*;
+import java.math.BigInteger;
+
 public class Main
 {
     public static void main()
@@ -11,12 +14,12 @@ public class Main
             summe+=i;
         }
         
-        int mult=1;
+        BigInteger mult=new BigInteger("1");
 
         for(int i=2;i<=obereGrenze;++i)
 
         {
-            mult*=i;
+            mult= mult.multiply(BigInteger.valueOf(i));
         }
         
         System.out.println("Summe: "+summe + "\n Multiplikation: "+mult);
