@@ -3,7 +3,7 @@ public class Main
     public static void main()
     {
 
-        int obereGrenze=15;
+        int obereGrenze=75;
         int summe=0;
         for(int i=1;i<=obereGrenze;++i)
 
